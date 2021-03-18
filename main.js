@@ -1,9 +1,11 @@
-function scriptz()
+var $canvas = document.getElementById('game');
+
+function scriptz(selector)
 {
-  const =
+  const self =
   {
-    e:(color)=>{
-      
+    center:()=>{
+      self.element.style.margin = "auto"
     }
   }
 }
